@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 50px;
+}
+
+.addChore {
+    background-color: gray;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius:10px;
+}
+
+.inputBar {
+    height: 30px;
+    width: 800px;
+    font-size:16px; 
+}
+
+.deleteButton {
+    background-color: red;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius:10px;
+}
+
+.deleteEach {
+    background-color: red;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:10px;
+}
